@@ -110,13 +110,14 @@
 .header__paragraph; */
 .recipes {
   padding: 100px 80px 215px;
-  /* background-color: #0a2750;
-  color: #ffffff; not sure why this doesn't work, I just put this under content instead*/
-  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+
+  /*background-image: url(../images/background_recipes.svg);
   /* z-index: -1; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #ffffff;
 }
 
 .recipes__title {
@@ -177,6 +178,86 @@
 }
 
 .content {
-  background-color: #0a2750;
+  /* background-color: #0a2750; */
+  /* color: #ffffff; */
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  background-image: url("../images/background_reservation.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d9e7ff;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form {
+  max-width: 385px;
+  background-color: #d9e7ff;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 2px;
+  padding-right: 20px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  height: 60px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+  background-color: #2f80ed;
   color: #ffffff;
+}
+
+.form__button:hover {
+  opacity: 0.7;
 }
